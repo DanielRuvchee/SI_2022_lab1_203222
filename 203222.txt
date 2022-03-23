@@ -1,0 +1,96 @@
+Daniel Ruvcheski 203222 
+Labaratoriska vezba - 01
+
+1.Vejke imav kreirano profil na GitHub
+
+2.Vo https://github.com/settings/repositories go smeniv imeto na default branch od main vo master
+
+3.Kreirav repozitorium SI_2022_lab1_203222
+
+4.git clone https://github.com/DanielRuvchee/SI_2022_lab1_203222.git
+
+5.Kreirav tekstualna datoteka shoppint_list.txt
+  git status
+  git add shopping_list.txt
+  git commit -m "Add 5 items to the shopping list"
+
+6.Na vejke postoeckite proizvodi mu dodadov kolacina i napraviv
+git add shopping_list.txt 
+git commit -m "Add quantities to the items"
+
+7.Za kreiranje na novi 2 branch gi iskoristiv slednive komandi
+git branch branch1
+git branch branch2
+git branch - za proverka dali se uspesno kreirani
+
+8.git pull
+  git push -u origin master
+
+9.Za da gi sinhroniziram gi izvrsiv slednive komandi
+git pull
+git push origin branch1
+git push origin branch2
+
+10. git checkout branch1
+Switched to branch 'branch1'
+
+11.Prvo izvrsiv promena na 5-kolicinita na txt datotekata
+potoa gi izvrsiv slednite komandi
+git add shopping_list.txt
+git status
+git commit -m "Change quantity of item #5"
+
+12. git checkout master
+Switched to branch 'master
+
+13.Prvo izvrsiv promena na 2 kolicina vo txt datotekata
+potoa gi izvrsiv slednite komandi
+git add shopping_list.txt
+git status
+git commit -m "Change quantity of item #2"
+
+14.git pull
+   git push origin master
+   git push origin branch1
+   git push origin branch2
+
+15.git checkout branch2
+Switched to branch 'branch2'
+
+16.Prvo napraviv promena na 4-tiot element od shopping list na origano x2 vo origano x2000
+potoa gi izvrsiv slednite komandi
+git status
+git add shopping_list.txt
+git status
+git commit -m"Modify item #4"
+
+17.Izvrsiv git push origin branch2
+
+18.Racno dodadov 6-ta stavka vo txt dokumentot Kaskaval6 x4, i potoa gi izvrsiv slednive komandi
+git status
+git add shopping_list.txt
+git commit --amend
+i potoa tuka ja promeniv commit porakata.
+i so :x izlegov od consol i napraviv uspesna promena na commit porakata
+
+git log
+commit 8cb4c74a73415bca8a780e9f090fbdc2dbd76939 (HEAD -> branch2)
+Author: Daniel Ruvcheski <famruvcheski@gmail.com>
+Date:   Wed Mar 23 13:06:56 2022 +0100
+
+    Modify item #4 and add item #6
+
+19.
+git status
+git add shopping_list.txt
+git status
+git commit -m "Merge branch 'branch2'"
+
+20.git checkout master
+git merge branch1
+
+21.
+git add shopping_list.txt
+git commit -m "Merge branch 'branch2'" 
+git merge branch2
+
