@@ -1,5 +1,15 @@
 Mandarina x3
 Kompir x20
 Pavlaka x1
+<<<<<<< HEAD
 Origano x2
 Domaten sos x10
+=======
+Origano x2000
+<<<<<<< HEAD
+Domaten sos x10
+KASKAVAL6 x4
+=======
+Domaten sos x10
+>>>>>>> d2090550acadfacd09bdee0d1524d843cd9bacf6
+>>>>>>> branch2
